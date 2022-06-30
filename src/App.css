@@ -13,8 +13,60 @@
   }
 }
 
+.items {
+  display: block;
+  place-items: center;
+  margin: 0 auto;
+  z-index: 0;
+
+}
+
+.button {
+  background-color: #E32424;
+  border: white;
+  border-radius: 36px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+}
+
+.dots{
+  height: 35px;
+  width: 35px;
+  margin: 30px;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+}
+.dots1{
+  height: 35px;
+  width: 35px;
+  margin: 30px;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+}
+.dots2{
+  height: 35px;
+  width: 35px;
+  margin: 30px;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+}
+.dots3{
+  height: 35px;
+  width: 35px;
+  margin: 30px;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
